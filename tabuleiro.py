@@ -21,7 +21,6 @@ class Tabuleiro(object):
         x, y = np.where(self.tabuleiro == 0)
         self.vazio = Pos.ponto(int(x), int(y))
         
-    
     def verificaTabuleiro(self):
         '''Verifica se a disposiçao passada do 
         tabuleiro é uma solução válida.'''
@@ -63,8 +62,8 @@ class Tabuleiro(object):
         comando passado na sequencia'''
         if direcao == 'C': self.cima()
         if direcao == 'B': self.baixo()
-        if direcao == 'D': self.esquerda()
-        if direcao == 'E': self.direita()
+        if direcao == 'D': self.direita()
+        if direcao == 'E': self.esquerda()
     
     def leSequenciaMovimentos(self, sequencia):
         '''Lê uma sequência de movimentos a partir de uma string'''
