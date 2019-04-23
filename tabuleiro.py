@@ -3,7 +3,6 @@
 
 import Pos # Facilitar a representação das posições (tuplas)
 import numpy as np
-import pprint as pp
 
 class Tabuleiro(object):
     def __init__(self, tamanho):
