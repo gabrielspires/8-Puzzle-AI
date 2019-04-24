@@ -40,3 +40,4 @@ class Estado:
                 estadosPossiveis.put(Estado(tabuleiro, self, direcao))
         return estadosPossiveis
     
+    # Fazer pelo menos 2 heurísticas

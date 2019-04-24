@@ -1,8 +1,5 @@
-#http://ozzmaker.com/add-colour-to-text-in-python/
-
-
 import Pos # Facilitar a representação das posições (tuplas)
-import numpy as np
+import numpy as np # Facilitar a manipulação da matriz (tabuleiro)
 
 class Tabuleiro(object):
     def __init__(self, tamanho):
