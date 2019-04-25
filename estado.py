@@ -31,9 +31,8 @@ class Estado:
         a partir de uma determinada configuração.
         '''
         estadosPossiveis = Queue()
-        movimentosPossiveis = ['C','B','D','E']
 
-        for direcao in movimentosPossiveis:
+        for direcao in tabuleiro.movimentosPossiveis:
             tabuleiro = deepcopy(self.estado)
             tabuleiro.moverPeca(direcao)
             if tabuleiro.vazio is not self.estado.vazio: # Testa se o tabuleiro mudou

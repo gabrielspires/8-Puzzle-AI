@@ -1,5 +1,7 @@
 import Pos # Facilitar a representação das posições (tuplas)
 import numpy as np # Facilitar a manipulação da matriz (tabuleiro)
+import random # Ajuda pra gerar as permutações do tabuleiro
+from copy import deepcopy
 
 class Tabuleiro(object):
     def __init__(self, tamanho):
@@ -7,8 +9,19 @@ class Tabuleiro(object):
         self.tabuleiro = np.arange(1,tamanho**2+1).reshape(tamanho, tamanho)
         self.tabuleiro[tamanho-1][tamanho-1] = 0
         self.vazio = Pos.ponto(tamanho-1, tamanho-1)
+        self.movimentosPossiveis = ['C','B','D','E']
         
-    
+    def embaralhaTabuleiro(self, numMovimentos):
+        print("Tabuleiro embaralhado com os movimentos: ", end="")
+        for _ in range(0, numMovimentos):
+            vazioAnterior = self.vazio
+            while(self.vazio == vazioAnterior): # Peça nenhuma andou
+                m = random.choice(self.movimentosPossiveis)
+                self.moverPeca(m)
+            print(m, end="")
+        print()
+
+
     def leTabuleiro(self, pecas):
         '''Lê o tabuleiro a partir de uma string com 
         os números separados por espaço'''
@@ -75,12 +88,14 @@ class Tabuleiro(object):
         print("\033[0;47;40m")
 
 a = Tabuleiro(3)
-a.leTabuleiro("1 2 3 4 5 6 7 0 8")
+a.leTabuleiro("1 2 3 4 5 6 7 8 0")
 print("Posição vazia:", a.vazio.x, a.vazio.y)
 a.mostraTabuleiro()
 # a.trocaPeca(Pos.ponto(1,1), Pos.ponto(0,1))
 # a.mostraTabuleiro()
-print(a.verificaTabuleiro())
-a.direita()
+# print(a.verificaTabuleiro())
+# a.direita()
+# a.mostraTabuleiro()
+# print(a.verificaTabuleiro())
+a.embaralhaTabuleiro(30)
 a.mostraTabuleiro()
-print(a.verificaTabuleiro())
