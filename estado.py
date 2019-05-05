@@ -19,6 +19,11 @@ class Estado:
         else:
             self.movimentos = movimento
     
+    def __str__(self):
+        """Retorna uma string com os movimentos executados do estado inicial
+        até o atual"""
+        return str(self.movimentos)
+
     def testeObjetivo(self):
         '''
         Verifica se o estado é o objetivo
