@@ -6,8 +6,15 @@ from copy import deepcopy
 class Tabuleiro(object):
     def __init__(self, tamanho):
         self.tamanho = tamanho
-        self.tabuleiro = np.arange(1,tamanho**2+1).reshape(tamanho, tamanho)
-        self.tabuleiro[tamanho-1][tamanho-1] = 0
+        # self.tabuleiro = np.arange(1,tamanho**2+1).reshape(tamanho, tamanho)
+        self.tabuleiro = []
+        count=1
+        for i in range(self.tamanho):
+            self.tabuleiro.append([])
+            for j in range(self.tamanho):
+                self.tabuleiro[i].append(count%(self.tamanho**2))
+                count+=1
+        # self.tabuleiro[tamanho-1][tamanho-1] = 0
         self.vazio = Pos.ponto(tamanho-1, tamanho-1)
         self.movimentosPossiveis = ['C','B','D','E']
         
@@ -26,10 +33,22 @@ class Tabuleiro(object):
     def leTabuleiro(self, pecas):
         """Lê o tabuleiro a partir de uma string com
         os números separados por espaço"""
-        self.tabuleiro = np.fromstring(pecas, dtype=int, sep=" ")
-        self.tabuleiro = self.tabuleiro.reshape(self.tamanho, self.tamanho)
-        x, y = np.where(self.tabuleiro == 0)
-        self.vazio = Pos.ponto(int(x), int(y))
+
+        pecas = pecas.split(" ")
+
+        count=0
+        for i in range(self.tamanho):
+            for j in range(self.tamanho):
+                if int(pecas[count]) == 0:
+                    self.vazio = Pos.ponto(int(i), int(j))
+                self.tabuleiro[i][j] = int(pecas[count])
+                count += 1
+
+
+        # self.tabuleiro = np.fromstring(pecas, dtype=int, sep=" ")
+        # self.tabuleiro = self.tabuleiro.reshape(self.tamanho, self.tamanho)
+        # x, y = np.where(self.tabuleiro == 0)
+        # self.vazio = Pos.ponto(int(x), int(y))
         
     def verificaTabuleiro(self):
         """Verifica se a disposiçao passada do
@@ -76,9 +95,9 @@ class Tabuleiro(object):
         """Executa um movimento de acordo com o
         comando passado na sequencia"""
         if direcao == 'C': self.cima()
-        if direcao == 'B': self.baixo()
-        if direcao == 'D': self.direita()
-        if direcao == 'E': self.esquerda()
+        elif direcao == 'B': self.baixo()
+        elif direcao == 'D': self.direita()
+        elif direcao == 'E': self.esquerda()
     
     def leSequenciaMovimentos(self, sequencia):
         """Lê uma sequência de movimentos a partir de uma string"""

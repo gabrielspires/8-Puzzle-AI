@@ -24,6 +24,9 @@ class Estado:
         até o atual"""
         return str(self.movimentos)
 
+    def __lt__(self, value):
+        return self.profundidade < value.profundidade
+
     def testeObjetivo(self):
         '''
         Verifica se o estado é o objetivo
@@ -35,13 +38,13 @@ class Estado:
         Função sucessora que retorna todos os estados possíveis
         a partir de uma determinada configuração.
         '''
-        estadosPossiveis = Queue()
+        estadosPossiveis = []
 
         for direcao in self.estado.movimentosPossiveis:
             tabuleiro = deepcopy(self.estado)
             tabuleiro.moverPeca(direcao)
-            if tabuleiro.vazio is not self.estado.vazio: # Testa se o tabuleiro mudou
-                estadosPossiveis.put(Estado(tabuleiro, self, direcao))
+            # if tabuleiro.vazio is not self.estado.vazio: # Testa se o tabuleiro mudou
+            estadosPossiveis.append(Estado(tabuleiro, self, direcao))
         return estadosPossiveis
     
     # Heurísticas
