@@ -1,13 +1,18 @@
 import tabuleiro
 import estado
-import queue as fila
+import queue as q
 
 class Buscas:
     def __init__(self, tabuleiro):
-        pass
+        """Inicia com um tabuleiro como estado inicial da busca"""
+        self.inicio = estado.Estado(tabuleiro)
 
     #Breadth-first search
     def bfs(self):
+        folhas = q.Queue()  # FIFO queue
+        visitados = set()
+        # Testar goal ao GERAR estado
+        # Discartar caminhos por estados que já estão na fronteira ou já foram visitados
         pass
 
     #Iterative deepening search    
