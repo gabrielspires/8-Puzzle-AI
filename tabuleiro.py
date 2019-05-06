@@ -1,5 +1,5 @@
 import Pos # Facilitar a representação das posições (tuplas)
-import numpy as np # Facilitar a manipulação da matriz (tabuleiro)
+# import numpy as np # Facilitar a manipulação da matriz (tabuleiro)
 import random # Ajuda pra gerar as permutações do tabuleiro
 from copy import deepcopy
 

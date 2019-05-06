@@ -21,6 +21,7 @@ class Buscas:
             return node
         frontier = [node]  # FIFO queue
         explored = set()
+        expandedStates = 0
         while True:
             # if frontier.qsize()%1000 == 0:
             #     print(frontier.qsize())
@@ -30,10 +31,13 @@ class Buscas:
             # print(node.profundidade)
             explored.add(str(node.estado.tabuleiro))
             possibleStates = node.funcaoSucessora()
+            expandedStates += len(possibleStates)
             while len(possibleStates) != 0:
                 child = possibleStates.pop(0)
                 if str(child.estado.tabuleiro) not in explored:
-                    if child.testeObjetivo(): return child
+                    if child.testeObjetivo():
+                        print("\tNós expandidos:\t", expandedStates)
+                        return child
                     frontier.append(child)
 
 
@@ -81,15 +85,18 @@ class Buscas:
         #     else: return None
 
         explored = set()
-
+        expandedStates = 0
         while True:
             if len(frontier) == 0: return None
             node = frontier.pop(0)
             explored.add(str(node.estado.tabuleiro))
             # print(node.profundidade)
-            if node.testeObjetivo(): return node
+            if node.testeObjetivo(): 
+                print("\tNós expandidos:\t", expandedStates)
+                return node
             elif node.profundidade is not depth:
                 possibleStates = node.funcaoSucessora()
+                expandedStates += len(possibleStates)
                 while len(possibleStates) != 0:
                     new_node = possibleStates.pop(0)
                     if str(new_node.estado.tabuleiro) not in explored:
@@ -102,13 +109,17 @@ class Buscas:
         frontier = q.PriorityQueue()
         frontier.put((node.profundidade, node))
         explored = set()
+        expandedStates = 0
         while True:
             if frontier.empty(): return None
             node = frontier.get()[1]
-            if node.testeObjetivo(): return node
+            if node.testeObjetivo(): 
+                print("\tNós expandidos:\t", expandedStates)
+                return node
             
             explored.add(str(node.estado.tabuleiro))
             possibleStates = node.funcaoSucessora()
+            expandedStates += len(possibleStates)
             while len(possibleStates) != 0:
                 child = possibleStates.pop(0)
                 if str(child.estado.tabuleiro) not in explored:
@@ -124,14 +135,18 @@ class Buscas:
         frontier = q.PriorityQueue()
         frontier.put((node.custoHeuristica(heuristica),node))
         closed = []
+        expandedStates = 0
         while True:
             if frontier.empty(): return None
             node = frontier.get()[1]
-            if node.testeObjetivo(): return node
+            if node.testeObjetivo(): 
+                print("\tNós expandidos:\t", expandedStates)
+                return node
                 
             elif str(node.estado.tabuleiro) not in closed:
                 closed.append(str(node.estado.tabuleiro))
                 possibleStates = node.funcaoSucessora()
+                expandedStates += len(possibleStates)
                 while len(possibleStates) != 0:
                     child = possibleStates.pop(0)
                     frontier.put((child.custoHeuristica(heuristica)+child.profundidade, child))
@@ -143,14 +158,18 @@ class Buscas:
         frontier = q.PriorityQueue()
         frontier.put((node.custoHeuristica(heuristica),node))
         closed = []
+        expandedStates = 0
         while True:
             if frontier.empty(): return None
             node = frontier.get()[1]
-            if node.testeObjetivo(): return node
+            if node.testeObjetivo():
+                print("\tNós expandidos:\t", expandedStates)
+                return node
                 
             elif str(node.estado.tabuleiro) not in closed:
                 closed.append(str(node.estado.tabuleiro))
                 possibleStates = node.funcaoSucessora()
+                expandedStates += len(possibleStates)
                 while len(possibleStates) != 0:
                     child = possibleStates.pop(0)
                     frontier.put((child.custoHeuristica(heuristica), child))
