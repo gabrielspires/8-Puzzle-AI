@@ -147,7 +147,7 @@ class Buscas:
 a = tabuleiro.Tabuleiro(3)
 a.leTabuleiro("8 6 7 2 5 4 3 0 1")  # 31
 # a.leTabuleiro("1 3 0 7 2 6 5 4 8")
-# a.leTabuleiro("8 0 7 5 3 2 1 4 6")
+# a.leTabuleiro("1 5 2 4 8 3 7 6 0") # 6
 # a.leTabuleiro("5 8 2 7 0 3 1 4 6") # 14
 # a.leTabuleiro("5 8 2 1 0 3 4 7 6") # 10
 # a.leTabuleiro("8 7 2 5 4 3 1 6 0") # 18
@@ -171,8 +171,8 @@ b = Buscas(a)
 # s = b.uniformCost()
 # print(s, len(str(s)), "movimentos")
 
-# Rodando o BFS... : CCDBEEBDDCEECDDBEBECCDBBECCDDBB 31 movimentos
-# python3 buscas.py  199,25s user 0,73s system 100% cpu 3:19,79 total
+# Rodando o uniformCost... : ECDCDBEBDCEECDDBEBECCDBBECCDBDB 31 movimentos
+# python3 buscas.py  206,94s user 0,63s system 100% cpu 3:27,41 total
 
 # print("Rodando o aStar... : ", end='')
 # s = b.aStar(1)
@@ -191,6 +191,9 @@ b = Buscas(a)
 print("Rodando o iterativeDeepening... : ", end='')
 s = b.iterativeDeepening()
 print(s, len(str(s)), "movimentos")
+
+# Rodando o iterativeDeepening... : CEBBDCCDBB 10 movimentos
+# python3 buscas.py  124,29s user 0,25s system 100% cpu 2:04,38 total
 
 # print("Rodando o hillClimbing... : ", end='')
 # s = b.hillClimbing()
