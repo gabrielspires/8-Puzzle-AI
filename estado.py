@@ -18,6 +18,7 @@ class Estado:
             self.movimentos = estadoPai.movimentos + movimento
         else:
             self.movimentos = movimento
+            
         self.distManhattan = self.distanciaManhattan()
     
     def __str__(self):
@@ -45,8 +46,8 @@ class Estado:
         for direcao in self.estado.movimentosPossiveis:
             tabuleiro = deepcopy(self.estado)
             tabuleiro.moverPeca(direcao)
-            # if tabuleiro.vazio is not self.estado.vazio: # Testa se o tabuleiro mudou
-            estadosPossiveis.append(Estado(tabuleiro, self, direcao))
+            if tabuleiro.vazio is not self.estado.vazio: # Testa se o tabuleiro mudou
+                estadosPossiveis.append(Estado(tabuleiro, self, direcao))
         return estadosPossiveis
     
     # Heurísticas

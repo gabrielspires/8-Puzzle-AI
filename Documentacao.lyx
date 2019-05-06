@@ -107,6 +107,51 @@ Heurísticas
 Soluções encontradas
 \end_layout
 
+\begin_layout Standard
+Rodando o BFS...
+ : CCDBEEBDDCEECDDBEBECCDBBECCDDBB 31 movimentos
+\end_layout
+
+\begin_layout Standard
+python3 buscas.py 199,25s user 0,73s system 100% cpu 3:19,79 total
+\end_layout
+
+\begin_layout Standard
+Rodando o uniformCost...
+ : ECDCDBEBDCEECDDBEBECCDBBECCDBDB 31 movimentos
+\end_layout
+
+\begin_layout Standard
+python3 buscas.py 206,94s user 0,63s system 100% cpu 3:27,41 total
+\end_layout
+
+\begin_layout Standard
+Rodando o aStar...
+ : DCCEBBDCCEBEBDCECDBBDCCEBEBDCDB 31 movimentos
+\end_layout
+
+\begin_layout Standard
+python3 buscas.py 21,06s user 0,21s system 100% cpu 21,071 total
+\end_layout
+
+\begin_layout Standard
+Rodando o greedyBestFirst...
+ : ECCDDBBEECCDDBBEECCDDBBEECCDDBEBDCECDBBECDCEBBDCECDBB 53 movimentos
+\end_layout
+
+\begin_layout Standard
+python3 buscas.py 0,30s user 0,16s system 172% cpu 0,267 total
+\end_layout
+
+\begin_layout Standard
+Rodando o iterativeDeepening...
+ : CCDBEEBDDCEECDDBEBECCDBBECCDDBB 31 movimentos 
+\end_layout
+
+\begin_layout Standard
+python3 8puzzle.py 1277,98s user 282,19s system 100% cpu 25:60,00 total 
+\end_layout
+
 \begin_layout Section
 Análise
 \end_layout
