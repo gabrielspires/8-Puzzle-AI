@@ -18,6 +18,7 @@ class Estado:
             self.movimentos = estadoPai.movimentos + movimento
         else:
             self.movimentos = movimento
+        self.distManhattan = self.distanciaManhattan()
     
     def __str__(self):
         """Retorna uma string com os movimentos executados do estado inicial
@@ -25,6 +26,7 @@ class Estado:
         return str(self.movimentos)
 
     def __lt__(self, value):
+        """Serve pra poder comparar a classe por < ou >. Útil ao usar fila de prioridades."""
         return self.profundidade < value.profundidade
 
     def testeObjetivo(self):
