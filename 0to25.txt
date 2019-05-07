@@ -1,0 +1,757 @@
+8-Puzzle - Solucionando o problema com Inteligência Artificial
+
+
+Escolha qual caso teste deseja executar: [0-31]
+PROBLEMA # 0
+
+Tabuleiro:
+1 2 3 
+4 5 6 
+7 8 0 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Resposta:	 
+	Num. movimentos: 0
+	Tempo:		  0.0000 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 0
+	Resposta:	 
+	Num. movimentos: 0
+	Tempo:		  0.0000 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 0
+	Resposta:	 
+	Num. movimentos: 0
+	Tempo:		  0.0000 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 0
+	Resposta:	 
+	Num. movimentos: 0
+	Tempo:		  0.0000 segundos
+PROBLEMA # 1
+
+Tabuleiro:
+1 2 3 
+4 5 6 
+7 0 8 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 4
+	Resposta:	 D
+	Num. movimentos: 1
+	Tempo:		  0.0004 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 8
+	Resposta:	 D
+	Num. movimentos: 1
+	Tempo:		  0.0009 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 4
+	Resposta:	 D
+	Num. movimentos: 1
+	Tempo:		  0.0004 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 4
+	Resposta:	 D
+	Num. movimentos: 1
+	Tempo:		  0.0004 segundos
+PROBLEMA # 2
+
+Tabuleiro:
+1 2 3 
+4 0 5 
+7 8 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 16
+	Resposta:	 DB
+	Num. movimentos: 2
+	Tempo:		  0.0014 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 44
+	Resposta:	 DB
+	Num. movimentos: 2
+	Tempo:		  0.0036 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 8
+	Resposta:	 DB
+	Num. movimentos: 2
+	Tempo:		  0.0008 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 8
+	Resposta:	 DB
+	Num. movimentos: 2
+	Tempo:		  0.0008 segundos
+PROBLEMA # 3
+
+Tabuleiro:
+1 0 3 
+4 2 5 
+7 8 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 24
+	Resposta:	 BDB
+	Num. movimentos: 3
+	Tempo:		  0.0019 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 44
+	Resposta:	 BDB
+	Num. movimentos: 3
+	Tempo:		  0.0040 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 12
+	Resposta:	 BDB
+	Num. movimentos: 3
+	Tempo:		  0.0016 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 12
+	Resposta:	 BDB
+	Num. movimentos: 3
+	Tempo:		  0.0012 segundos
+PROBLEMA # 4
+
+Tabuleiro:
+1 5 2 
+4 0 3 
+7 8 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 56
+	Resposta:	 CDBB
+	Num. movimentos: 4
+	Tempo:		  0.0044 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 120
+	Resposta:	 CDBB
+	Num. movimentos: 4
+	Tempo:		  0.0102 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 16
+	Resposta:	 CDBB
+	Num. movimentos: 4
+	Tempo:		  0.0016 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 16
+	Resposta:	 CDBB
+	Num. movimentos: 4
+	Tempo:		  0.0014 segundos
+PROBLEMA # 5
+
+Tabuleiro:
+1 5 2 
+0 4 3 
+7 8 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 112
+	Resposta:	 DCDBB
+	Num. movimentos: 5
+	Tempo:		  0.0091 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 176
+	Resposta:	 DCDBB
+	Num. movimentos: 5
+	Tempo:		  0.0157 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 20
+	Resposta:	 DCDBB
+	Num. movimentos: 5
+	Tempo:		  0.0019 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 20
+	Resposta:	 DCDBB
+	Num. movimentos: 5
+	Tempo:		  0.0018 segundos
+PROBLEMA # 6
+
+Tabuleiro:
+1 5 2 
+4 8 3 
+7 6 0 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 168
+	Resposta:	 ECCDBB
+	Num. movimentos: 6
+	Tempo:		  0.0133 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 256
+	Resposta:	 ECCDBB
+	Num. movimentos: 6
+	Tempo:		  0.0211 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 28
+	Resposta:	 ECCDBB
+	Num. movimentos: 6
+	Tempo:		  0.0026 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 28
+	Resposta:	 ECCDBB
+	Num. movimentos: 6
+	Tempo:		  0.0026 segundos
+PROBLEMA # 7
+
+Tabuleiro:
+1 5 2 
+4 8 0 
+7 6 3 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 288
+	Resposta:	 BECCDBB
+	Num. movimentos: 7
+	Tempo:		  0.0222 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 684
+	Resposta:	 BECCDBB
+	Num. movimentos: 7
+	Tempo:		  0.0575 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 36
+	Resposta:	 BECCDBB
+	Num. movimentos: 7
+	Tempo:		  0.0035 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 132
+	Resposta:	 BECCDBB
+	Num. movimentos: 7
+	Tempo:		  0.0128 segundos
+PROBLEMA # 8
+
+Tabuleiro:
+0 5 2 
+1 8 3 
+4 7 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 368
+	Resposta:	 BBDCCDBB
+	Num. movimentos: 8
+	Tempo:		  0.0285 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 684
+	Resposta:	 BBDCCDBB
+	Num. movimentos: 8
+	Tempo:		  0.0574 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 36
+	Resposta:	 BBDCCDBB
+	Num. movimentos: 8
+	Tempo:		  0.0034 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 32
+	Resposta:	 BBDCCDBB
+	Num. movimentos: 8
+	Tempo:		  0.0030 segundos
+PROBLEMA # 9
+
+Tabuleiro:
+1 0 2 
+8 5 3 
+4 7 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 940
+	Resposta:	 BEBDCCDBB
+	Num. movimentos: 9
+	Tempo:		  0.0742 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 1640
+	Resposta:	 DBEEBDCDB
+	Num. movimentos: 9
+	Tempo:		  0.1370 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 80
+	Resposta:	 DBEEBDCDB
+	Num. movimentos: 9
+	Tempo:		  0.0077 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 164
+	Resposta:	 DBEEBDCDB
+	Num. movimentos: 9
+	Tempo:		  0.0181 segundos
+PROBLEMA # 10
+
+Tabuleiro:
+5 8 2 
+1 0 3 
+4 7 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 1512
+	Resposta:	 CEBBDCCDBB
+	Num. movimentos: 10
+	Tempo:		  0.1187 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 2644
+	Resposta:	 CEBBDCCDBB
+	Num. movimentos: 10
+	Tempo:		  0.2225 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 72
+	Resposta:	 CEBBDCCDBB
+	Num. movimentos: 10
+	Tempo:		  0.0070 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2104
+	Resposta:	 CDBBECCEBBDDCEBECDDBECEBDCCEBBDCECDBBD
+	Num. movimentos: 38
+	Tempo:		  0.2214 segundos
+PROBLEMA # 11
+
+Tabuleiro:
+5 8 2 
+1 7 3 
+4 0 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 2208
+	Resposta:	 CCEBBDCCDBB
+	Num. movimentos: 11
+	Tempo:		  0.1731 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 3980
+	Resposta:	 CCEBBDCCDBB
+	Num. movimentos: 11
+	Tempo:		  0.3916 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 80
+	Resposta:	 CCEBBDCCDBB
+	Num. movimentos: 11
+	Tempo:		  0.0078 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 1996
+	Resposta:	 CEBDCDBECCDBEBDCCEBBDCCEEBDCEBDDCEBECDDBECEBDDB
+	Num. movimentos: 47
+	Tempo:		  0.2127 segundos
+PROBLEMA # 12
+
+Tabuleiro:
+5 8 2 
+1 7 3 
+0 4 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 4072
+	Resposta:	 DCCEBBDCCDBB
+	Num. movimentos: 12
+	Tempo:		  0.3292 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 5844
+	Resposta:	 DCCEBBDCCDBB
+	Num. movimentos: 12
+	Tempo:		  0.5203 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 80
+	Resposta:	 DCCEBBDCCDBB
+	Num. movimentos: 12
+	Tempo:		  0.0078 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 1820
+	Resposta:	 DCEBDCDBECCDBEBDCCEBBDCCEEBDCEBDDCEBECDDBECEBDDB
+	Num. movimentos: 48
+	Tempo:		  0.1973 segundos
+PROBLEMA # 13
+
+Tabuleiro:
+5 8 2 
+0 7 3 
+1 4 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 6696
+	Resposta:	 BDCCEBBDCCDBB
+	Num. movimentos: 13
+	Tempo:		  0.5382 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 15396
+	Resposta:	 BDCCEBBDCCDBB
+	Num. movimentos: 13
+	Tempo:		  1.3476 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 144
+	Resposta:	 BDCCEBBDCCDBB
+	Num. movimentos: 13
+	Tempo:		  0.0180 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2276
+	Resposta:	 CDDBBECECDBEBDCCEBBDDCEBECDDB
+	Num. movimentos: 29
+	Tempo:		  0.2569 segundos
+PROBLEMA # 14
+
+Tabuleiro:
+5 8 2 
+7 0 3 
+1 4 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 16024
+	Resposta:	 EBDCCEBBDCCDBB
+	Num. movimentos: 14
+	Tempo:		  1.3341 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 25240
+	Resposta:	 EBDCCEBBDCCDBB
+	Num. movimentos: 14
+	Tempo:		  2.1898 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 280
+	Resposta:	 EBDCCEBBDCCDBB
+	Num. movimentos: 14
+	Tempo:		  0.0284 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2756
+	Resposta:	 CDBEEBDCDBECCEBBDDCEBECDDBECEBDCCEBBDCECDBBD
+	Num. movimentos: 44
+	Tempo:		  0.2975 segundos
+PROBLEMA # 15
+
+Tabuleiro:
+8 0 2 
+5 7 3 
+1 4 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 22216
+	Resposta:	 EBBDCCEBBDCCDBB
+	Num. movimentos: 15
+	Tempo:		  1.7982 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 27912
+	Resposta:	 EBBDCCEBBDCCDBB
+	Num. movimentos: 15
+	Tempo:		  2.4593 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 312
+	Resposta:	 EBBDCCEBBDCCDBB
+	Num. movimentos: 15
+	Tempo:		  0.0314 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2136
+	Resposta:	 DBBECECDBEBDCCEBBDDCEBECDDB
+	Num. movimentos: 27
+	Tempo:		  0.2228 segundos
+PROBLEMA # 16
+
+Tabuleiro:
+8 7 2 
+5 0 3 
+1 4 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 30236
+	Resposta:	 CEBBDCCEBBDCCDBB
+	Num. movimentos: 16
+	Tempo:		  2.5112 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 51300
+	Resposta:	 CEBBDCCEBBDCCDBB
+	Num. movimentos: 16
+	Tempo:		  4.5931 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 508
+	Resposta:	 CEBBDCCEBBDCCDBB
+	Num. movimentos: 16
+	Tempo:		  0.0509 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 3220
+	Resposta:	 ECDDBBEECCDBBECDCEBBDDCEBECDDB
+	Num. movimentos: 30
+	Tempo:		  0.3463 segundos
+PROBLEMA # 17
+
+Tabuleiro:
+5 0 8 
+7 3 2 
+1 4 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 57048
+	Resposta:	 DBEEBDCCEBBDCCDBB
+	Num. movimentos: 17
+	Tempo:		  4.7052 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 67444
+	Resposta:	 DBEEBDCCEBBDCCDBB
+	Num. movimentos: 17
+	Tempo:		  6.0191 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 660
+	Resposta:	 DBEEBDCCEBBDCCDBB
+	Num. movimentos: 17
+	Tempo:		  0.0691 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2736
+	Resposta:	 BDBEECCDBBDCEECDDBBECECDBBDCCEBDBEECCDBEBDCECDBEBDDCEBECDDB
+	Num. movimentos: 59
+	Tempo:		  0.2931 segundos
+PROBLEMA # 18
+
+Tabuleiro:
+8 7 2 
+5 4 3 
+1 6 0 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 75552
+	Resposta:	 ECCEBBDCCEBBDCCDBB
+	Num. movimentos: 18
+	Tempo:		  6.3114 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 107288
+	Resposta:	 ECCEBBDCCEBBDCCDBB
+	Num. movimentos: 18
+	Tempo:		  9.7408 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 780
+	Resposta:	 ECCEBBDCCEBBDCCDBB
+	Num. movimentos: 18
+	Tempo:		  0.0802 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2780
+	Resposta:	 CEECDDBEEBDCDCEEBDCDBEBECDDBEECDBECCDDBECEBDDB
+	Num. movimentos: 46
+	Tempo:		  0.2963 segundos
+PROBLEMA # 19
+
+Tabuleiro:
+8 0 7 
+5 3 2 
+1 4 6 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 135924
+	Resposta:	 DBECEBBDCCEBBDCCDBB
+	Num. movimentos: 19
+	Tempo:		  11.9515 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 201932
+	Resposta:	 DBECEBBDCCEBBDCCDBB
+	Num. movimentos: 19
+	Tempo:		  18.9800 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 864
+	Resposta:	 DBECEBBDCCEBBDCCDBB
+	Num. movimentos: 19
+	Tempo:		  0.0900 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2128
+	Resposta:	 BECDDBBEECCDDBBEECDDCEBECDDBBEECDDCEBECDBBDCECDBB
+	Num. movimentos: 49
+	Tempo:		  0.2393 segundos
+PROBLEMA # 20
+
+Tabuleiro:
+8 7 0 
+5 4 2 
+1 6 3 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 146492
+	Resposta:	 BBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 20
+	Tempo:		  12.5053 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 321028
+	Resposta:	 BBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 20
+	Tempo:		  30.3154 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 1256
+	Resposta:	 BBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 20
+	Tempo:		  0.1291 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 2644
+	Resposta:	 BEECDDBEEBDCDCEEBDCDBEBECDDBECEBDCECDDBECEBDDB
+	Num. movimentos: 46
+	Tempo:		  0.2824 segundos
+PROBLEMA # 21
+
+Tabuleiro:
+8 0 7 
+5 4 2 
+1 6 3 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 302436
+	Resposta:	 DBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 21
+	Tempo:		  26.3172 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 462888
+	Resposta:	 DBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 21
+	Tempo:		  43.3293 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 1888
+	Resposta:	 DBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 21
+	Tempo:		  0.1969 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 3272
+	Resposta:	 BECDDBBEECCDDBEBECCDBDBEECCDBBECDCEBBDCECDBBD
+	Num. movimentos: 45
+	Tempo:		  0.3556 segundos
+PROBLEMA # 22
+
+Tabuleiro:
+0 8 7 
+5 4 2 
+1 6 3 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 441992
+	Resposta:	 DDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 22
+	Tempo:		  38.6192 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 628368
+	Resposta:	 DDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 22
+	Tempo:		  59.1164 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 2776
+	Resposta:	 DDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 22
+	Tempo:		  0.3054 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 1556
+	Resposta:	 BDCDBBECCDBBECEBDCCEBBDCEBDCCEBBDCECDBBD
+	Num. movimentos: 40
+	Tempo:		  0.1726 segundos
+PROBLEMA # 23
+
+Tabuleiro:
+8 4 7 
+5 6 2 
+1 0 3 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 531088
+	Resposta:	 CCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 23
+	Tempo:		  46.8344 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 729800
+	Resposta:	 CCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 23
+	Tempo:		  69.4295 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 4212
+	Resposta:	 CCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 23
+	Tempo:		  0.4644 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 3276
+	Resposta:	 CECDDBBEECCDDBEBECCDBDBEECCDBBECDCEBBDCECDBBD
+	Num. movimentos: 45
+	Tempo:		  0.3613 segundos
+PROBLEMA # 24
+
+Tabuleiro:
+8 4 7 
+5 6 2 
+1 3 0 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 774812
+	Resposta:	 ECCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 24
+	Tempo:		  69.8789 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 908156
+	Resposta:	 ECCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 24
+	Tempo:		  86.6012 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 5680
+	Resposta:	 ECCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 24
+	Tempo:		  0.6340 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 5536
+	Resposta:	 CEEBDCCEBDDBECDCEBBECDDBECEBDCDCEBDBECCDBB
+	Num. movimentos: 42
+	Tempo:		  0.6316 segundos
+PROBLEMA # 25
+
+Tabuleiro:
+8 4 7 
+5 6 0 
+1 3 2 
+
+C -> Cima, B -> Baixo, D -> Direita, E -> Esquerda
+
+Rodando o BFS... :
+	Nós expandidos:	 1049460
+	Resposta:	 BECCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 25
+	Tempo:		  93.7124 segundos
+Rodando o uniformCost... : 
+	Nós expandidos:	 1335868
+	Resposta:	 BECCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 25
+	Tempo:		  126.8692 segundos
+Rodando o A* com a heurística da Distancia de Manhattan... : 
+	Nós expandidos:	 10360
+	Resposta:	 BECCDBBECCEBBDCCEBBDCCDBB
+	Num. movimentos: 25
+	Tempo:		  1.2820 segundos
+Rodando o greedyBestFirst... : 
+	Nós expandidos:	 5584
+	Resposta:	 EEBDCCEBDBDCCEBDBECCEBBDCECDBDCEBDBECDCEBDBECDCEBBDCECDBB
+	Num. movimentos: 57
+	Tempo:		  0.6445 segundos

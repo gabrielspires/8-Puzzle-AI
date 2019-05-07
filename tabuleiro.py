@@ -113,6 +113,7 @@ class Tabuleiro(object):
         print()
 
 
+# Testes
 # a = Tabuleiro(3)
 # a.leTabuleiro("8 6 7 2 5 4 3 0 1")  # 31
 # a.leTabuleiro("7 2 4 5 0 6 8 3 1")

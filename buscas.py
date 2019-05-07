@@ -123,11 +123,12 @@ class Buscas:
             while len(possibleStates) != 0:
                 child = possibleStates.pop(0)
                 if str(child.estado.tabuleiro) not in explored:
-                    frontier.put((child.profundidade, child))
+                    frontier.put((1, child))
                 # elif:
                     # uma otimização é substituir os estados que
                     # estao na fila se eles aparecerem com custo
                     # menor depois
+
 
     #A* search
     def aStar(self, heuristica):
@@ -173,7 +174,8 @@ class Buscas:
                 while len(possibleStates) != 0:
                     child = possibleStates.pop(0)
                     frontier.put((child.custoHeuristica(heuristica), child))
-    
+
+
     #Hill Climbing, permitindo movimentos laterais
     def hillClimbing(self):
         current = self.inicio
@@ -190,7 +192,6 @@ class Buscas:
             possibleStates.sort(key=operator.attrgetter('distManhattan'))
             for item in possibleStates:
                 if str(item.estado.tabuleiro) in explored or str(item.estado.tabuleiro) in frontier:
-                    print("PENES")
                     possibleStates.remove(item)
                     print(len(frontier))
             frontier = possibleStates + frontier
