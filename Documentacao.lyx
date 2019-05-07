@@ -725,7 +725,7 @@ Tempo: 1417.87 segundos
 \end_layout
 
 \begin_layout Section
-Análise
+Análise quantitativa
 \end_layout
 
 \begin_layout Standard
@@ -779,7 +779,7 @@ Solução
 \begin_inset Text
 
 \begin_layout Plain Layout
-N° de movimentos
+Moves
 \end_layout
 
 \end_inset
@@ -795,11 +795,11 @@ Tempo
 </cell>
 </row>
 <row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Breadth-first search
+BFS
 \end_layout
 
 \end_inset
@@ -891,7 +891,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8
 \end_layout
 
 \end_inset
@@ -900,7 +900,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.0285
 \end_layout
 
 \end_inset
@@ -929,7 +929,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4072
 \end_layout
 
 \end_inset
@@ -938,7 +938,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+DCCEBBDCC...
 \end_layout
 
 \end_inset
@@ -947,7 +947,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+12
 \end_layout
 
 \end_inset
@@ -956,7 +956,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.3292
 \end_layout
 
 \end_inset
@@ -985,7 +985,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30236
 \end_layout
 
 \end_inset
@@ -994,7 +994,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+CEBBDCCEB...
 \end_layout
 
 \end_inset
@@ -1003,7 +1003,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+16
 \end_layout
 
 \end_inset
@@ -1012,7 +1012,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2.5112
 \end_layout
 
 \end_inset
@@ -1028,7 +1028,7 @@ BBDCCDBB
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1037,45 +1037,45 @@ BBDCCDBB
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+146492
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+BBECCEBBDC...
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+12.5053
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1097,7 +1097,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+84
 \end_layout
 
 \end_inset
@@ -1106,7 +1106,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+CDBB
 \end_layout
 
 \end_inset
@@ -1115,7 +1115,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4
 \end_layout
 
 \end_inset
@@ -1124,7 +1124,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.0149
 \end_layout
 
 \end_inset
@@ -1153,7 +1153,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+628
 \end_layout
 
 \end_inset
@@ -1162,7 +1162,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+BBDCCDBB
 \end_layout
 
 \end_inset
@@ -1171,7 +1171,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8
 \end_layout
 
 \end_inset
@@ -1180,7 +1180,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.1110
 \end_layout
 
 \end_inset
@@ -1209,7 +1209,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4884
 \end_layout
 
 \end_inset
@@ -1218,7 +1218,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+DCCEBBDCCDBB
 \end_layout
 
 \end_inset
@@ -1227,7 +1227,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+12
 \end_layout
 
 \end_inset
@@ -1236,7 +1236,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.0331
 \end_layout
 
 \end_inset
@@ -1265,7 +1265,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+43860
 \end_layout
 
 \end_inset
@@ -1274,7 +1274,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+CEBBDCCEBBD...
 \end_layout
 
 \end_inset
@@ -1283,7 +1283,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+16
 \end_layout
 
 \end_inset
@@ -1292,7 +1292,7 @@ Iterative deepening
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+9.7072
 \end_layout
 
 \end_inset
@@ -1308,7 +1308,7 @@ Iterative deepening
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1317,45 +1317,45 @@ Iterative deepening
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+214284
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+BBECCEBBDCCEBB...
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+51.6616
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1451,7 +1451,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8
 \end_layout
 
 \end_inset
@@ -1460,7 +1460,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.0574
 \end_layout
 
 \end_inset
@@ -1489,7 +1489,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+5844
 \end_layout
 
 \end_inset
@@ -1498,7 +1498,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+DCCEBBDCC...
 \end_layout
 
 \end_inset
@@ -1507,7 +1507,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+12
 \end_layout
 
 \end_inset
@@ -1516,7 +1516,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.5203
 \end_layout
 
 \end_inset
@@ -1545,7 +1545,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+51300
 \end_layout
 
 \end_inset
@@ -1554,7 +1554,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+CEBBDCCEB...
 \end_layout
 
 \end_inset
@@ -1563,7 +1563,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+16
 \end_layout
 
 \end_inset
@@ -1572,7 +1572,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4.5931
 \end_layout
 
 \end_inset
@@ -1588,7 +1588,7 @@ BBDCCDBB
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1597,45 +1597,45 @@ BBDCCDBB
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+321028
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+BBECCEBBDC...
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30.3154
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1731,7 +1731,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8
 \end_layout
 
 \end_inset
@@ -1769,7 +1769,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+80
 \end_layout
 
 \end_inset
@@ -1778,7 +1778,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+DCCEBBDCC...
 \end_layout
 
 \end_inset
@@ -1787,7 +1787,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+12
 \end_layout
 
 \end_inset
@@ -1796,7 +1796,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.0078
 \end_layout
 
 \end_inset
@@ -1825,7 +1825,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+508
 \end_layout
 
 \end_inset
@@ -1834,7 +1834,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+CEBBDCCEBBD...
 \end_layout
 
 \end_inset
@@ -1843,7 +1843,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+16
 \end_layout
 
 \end_inset
@@ -1852,7 +1852,7 @@ BBDCCDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.0509
 \end_layout
 
 \end_inset
@@ -1868,7 +1868,7 @@ BBDCCDBB
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1877,38 +1877,38 @@ BBDCCDBB
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1256
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+BBECCEBBDC...
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.1291
 \end_layout
 
 \end_inset
@@ -1993,7 +1993,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+32
 \end_layout
 
 \end_inset
@@ -2002,7 +2002,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+BBDCCDBB
 \end_layout
 
 \end_inset
@@ -2011,7 +2011,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+8
 \end_layout
 
 \end_inset
@@ -2020,7 +2020,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.0030
 \end_layout
 
 \end_inset
@@ -2049,7 +2049,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1820
 \end_layout
 
 \end_inset
@@ -2058,7 +2058,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+DCEBDCDBEC...
 \end_layout
 
 \end_inset
@@ -2067,7 +2067,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+48
 \end_layout
 
 \end_inset
@@ -2076,7 +2076,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.1973
 \end_layout
 
 \end_inset
@@ -2105,7 +2105,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3220
 \end_layout
 
 \end_inset
@@ -2114,7 +2114,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+ECDDBBEECC...
 \end_layout
 
 \end_inset
@@ -2123,7 +2123,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+30
 \end_layout
 
 \end_inset
@@ -2132,7 +2132,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.3463
 \end_layout
 
 \end_inset
@@ -2161,7 +2161,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2644
 \end_layout
 
 \end_inset
@@ -2170,7 +2170,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+BEECDDBEEB..
 \end_layout
 
 \end_inset
@@ -2179,7 +2179,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+46
 \end_layout
 
 \end_inset
@@ -2188,7 +2188,7 @@ CDBB
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.2824
 \end_layout
 
 \end_inset
